@@ -1,4 +1,10 @@
-android_device_alcatel_v860
-===========================
+Device Alcatel v860
+===============
 
-Alcatel v860 files 
+Device tree for Alcatel v860
+
+Maintainer: Legolas93
+
+Specail Thanks: Bieltv.3
+
+Note: to build you must paste cyanogen_v860.mk to vendor/cyanogen/products
