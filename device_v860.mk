@@ -32,6 +32,11 @@ $(call inherit-product, device/common/gps/gps_us_supl.mk)
 # Add LDPI assets, in addition to MDPI
     PRODUCT_LOCALES += ldpi mdpi
 
+# Discard inherited values and use our own instead.
+PRODUCT_NAME := v860
+PRODUCT_DEVICE := v860
+PRODUCT_MODEL := SmartII
+
 # Torch
 PRODUCT_PACKAGES += \
     Torch

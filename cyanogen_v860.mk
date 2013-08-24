@@ -1,5 +1,5 @@
 # Inherit AOSP device configuration for blade.
-$(call inherit-product, device/alcatel/v860/full_v860.mk)
+$(call inherit-product, device/alcatel/v860/device_v860.mk)
 
 # Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cyanogen/products/common_full.mk)
